@@ -1,8 +1,8 @@
 sendhipchat -- A sendmail like tool for [HipChat](http://hipchat.com)
 =====================================================================
 
-I do Ops for CarePilot.com and we make extensive use of
-[HipChat](http://hipchat.com) for planning and
+I do Ops for [CarePilot.com](https://www.carepilot.com) and we make
+extensive use of [HipChat](http://hipchat.com) for planning and
 coordination. Incongriously--and this is my fault--our notification is
 done exclusively through email, mostly for want of a sendmail that
 spits out to HipChat, rather than our local, friendly mail server.
@@ -34,3 +34,10 @@ Send messages to multiple rooms:
     echo 'multiple room message' | sendhipchat --api-token TOKEN --from 'sendhipchat' --rooms "SINGLE ROOM","OTHER ROOM"
 
 See the help text (`sendhipchat --help`) for more options.
+
+Miscellania
+-----------
+
+`sendhipchat` has been developed as a part of my work with
+[CarePilot](https://www.carepilot.com) and is released under the MIT
+license. `sendhipchat` uses [semantic versioning](http://semver.org/).
